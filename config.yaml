@@ -2,7 +2,7 @@
 # and mount points are declared
 module:
   imports:
-  - path: bulma
+  - path: ../../bulma
     mounts:
     - source: bulma.sass
       target: assets/bulma/bulma.sass

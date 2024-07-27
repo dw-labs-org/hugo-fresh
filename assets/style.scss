@@ -1,2 +1,3 @@
-@use "../../bulma/sass";
-@use "fresh/core";
+// $white: #fff;
+@use "../../bulma/sass" as * with ($primary: #4FC1EA, $background: #550055);
+@import "fresh/core";
